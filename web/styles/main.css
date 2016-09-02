@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    background: #000;
+    font-family: Trebuchet MS, Verdana, MS Sans Serif;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    padding: 5px 0;
+}
+
+.siteHeader {
+    display: inline;
+    /*border: 2px solid #fff;*/
+}
+
+h1 img{
+    vertical-align: middle;
+    width: 10%;
+    height: auto;
+}
+
+h3 {
+    color: #000;
+}
+
+h4 {
+    text-align: right;
+}
+
+header {
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    background: #65021A;
+}
+
+nav{
+    box-sizing: border-box;
+    border: solid #fff;
+    border-width: 2px 0;
+    text-align: center;
+    list-style: none;
+    background-color: #CDC092;
+}
+
+nav a, header a{
+    display: inline-block;
+    padding: 5px;
+    color: #000;
+}
+
+nav span {
+    float: right;
+    height: 100%;
+    line-height: 40px;
+    padding-right: 20px;
+}
+
+aside {
+    float: left;
+    margin: 1%;
+    width: 20%;
+    border: solid #fff;
+    border-width: 2px;
+    text-align: left;
+    color: #fff;
+    background: #CDC092;
+}
+
+section {
+    float: left;
+    margin: 1% 0;
+    width: 75%;
+    border: solid #fff;
+    border-width: 2px;
+    color: #15259F;
+    background: #CDC092;
+}
+
+footer {
+    clear: both;
+    width: 100%;
+    color: #fff;
+    background: #65021A;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a, li {
+    color: #000;
+}
+
+aside a {
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+.widthFit {
+    width: fit-content;
+}
+
+.padLeft5 {
+    padding-left: 5px;
+}
+
+p .xLarge {
+    font-size: x-large;
+}
+
+p .larger {
+    font-size: larger;
+}
+
+p .larger5{
+    font-size: larger;
+    margin: 0 1%;
+}
+
+input {
+    font-size: larger;
+    padding: 2%;
+    background: #65021A;
+    color: #fff;
+    text-align: center;
+}
+
+form {
+    width: fit-content;
+}
+
+.borderBelow {
+    border: solid #000;
+    border-width: 0 0 1px 0;
+}
+
+input twitterSearch {
+    font-size: larger;
+    width: 98%;
+    padding: 2%;
+    background: #fff;
+    color: #000;
+    text-align: left;
+}
+
+h1 a {
+    color: white;
+}
+
+.singleItem{
+    display:inline-block;
+    margin-right:20px;
+    width:200px;
+    vertical-align:top;
+    padding:10px;
+    border:1px solid #CCC;
+    -moz-box-shadow: 0 0 3px #ccc;
+    -webkit-box-shadow: 0 0 3px #ccc;
+    box-shadow: 0 0 3px #ccc;
+    word-wrap:break-word;
+    margin-bottom:30px;
+}
+
+.tweet {
+    background-color: #fff;
+    padding: 2px;
+    margin: 5px 2px;
+    border: 2px solid #000;
+    font-size: larger;
+    width: 65%;
+    margin: 0 17.5%;
+    font-size: larger;
+}
+
+ .tweetUserImage {
+    float: left;  
+    vertical-align: middle;
+}
+
+.tweetName {
+    float: left;
+    padding: 0 0 0 5%;
+}
+
+.tweetScreenName {
+    float: left;
+    font-size: medium;
+    color: gray;
+    padding: 0 0 0 5%;
+}
+
+.tweetTime {
+    float: left;
+    font-size: medium;
+    color: gray;
+    padding: 0 5% 0 5%;
+}
+
+.tweetText {
+    clear: both;
+}
+
+.insta {
+    background-color: #fff;
+    padding: 2px;
+    margin: 5px 2px;
+    border: 2px solid #000;
+    font-size: larger;
+    width: 65%;
+    margin: 0 17.5%;
+}
+
+.instaLink {
+    text-align: center;
+}
+
+.instaProfilePic {
+    float: left;
+    padding: 0 5%;
+}
+
+.instaFullName {
+    
+}
+
+.instaUsername {
+    float: left;
+}
+
+.instaMedia {
+    clear: both;
+    
+}
+
+.instaLikes {
+}
+
+.instaCaption {
+    
+}
